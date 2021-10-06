@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Обязательные метатеги -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="source/newform.css">
+        <title>Good Vibes Only</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Навигация по сайту</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="sem34formNEW.html">Опрос</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pag1.html">Обо мне</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="source/m1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="source/m2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="source/m3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущая</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующая</span>
+            </button>
+        </div>
+        <div class="form-body">
+            <div class="row">
+                <div class="form-holder">
+                    <div class="form-content">
+                        <div class="form-items">
+                            <h3>Поднимаем уровень серотонина</h3>
+                            <p>Опрос про собачек с картинками песиков)</p>
+                            <form class="requires-validation" novalidate>
+                                <div class="col-md-12">
+                                    <input class="form-control" type="text" name="name" placeholder="Какое имя Вы бы дали песику?" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <select class="form-select mt-3" required>
+                                          <option selected disabled value="">Любите собачек?</option>
+                                          <option value="male">Да</option>
+                                          <option value="female">Конечно</option>
+                                          <option value="notSad">Безусловно</option>
+                                   </select>
+                                </div>
+                                <div class="col-md-12">
+                                    <h5>Какая собачка нравится больше всего?</h5>
+                                    <img src="source/dog1.jpg">
+                                    <img src="source/dog2.jpg">
+                                    <img src="source/dog3.jpg"><br>
+                                    <input name="dogpic" type="radio" class="btn dog-btn" value="1">
+                                    <input name="dogpic" type="radio" class="btn dog-btn" value="2">
+                                    <input name="dogpic" type="radio" class="btn dog-btn" value="3">
+                                <div class="col-md-12 mt-3">
+                                    <h5>Какого работника наймете себе в компанию? (Можно выбрать больше 1)</h5>
+                                    <img src="source/dog4.jpg">
+                                    <img src="source/dog5.jpg"><br>
+                                    <input type="checkbox"class="btn btn-worker" name="a" value="d1"> Деловой
+                                    <input type="checkbox"class="btn btn-worker" name="a" value="d2"> Серьезный<br>
+                                    <img src="source/dog6.jpg">
+                                    <img src="source/dog7.jpg"><br>
+                                    <input type="checkbox"class="btn btn-worker" name="a" value="d3"> Пьет чай
+                                    <input type="checkbox"class="btn btn-worker" name="a" value="d4"> Кушает<br>
+                                </div>
+                                <div class="col-md-12">
+                                    <h5>Ваш email (отправим рассылку с мемами про песиков)</h5>
+                                    <input class="form-control" type="email" name="email" placeholder="E-mail" required>
+                                </div>
+                                <div class="form-button mt-3">
+                                    <button id="submit" type="submit" class="btn btn-primary">Гав! отправляем!</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+</html>

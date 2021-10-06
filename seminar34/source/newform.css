@@ -1,0 +1,111 @@
+*, body {
+    font-family: 'Calibri', sans-serif;
+    font-weight: 400;
+}
+
+html, body {
+    height: 100%;
+    background-color: aliceblue;
+    overflow: hidden;
+    overflow-y: scroll; 
+}
+
+.carousel-item img{
+    height: 400px;
+}
+
+.form-holder {
+    min-height: 100vh;
+}
+
+.form-holder .form-content {
+    position: relative;
+    padding: 30px;
+}
+
+.form-content .form-items {
+    border: 3px solid navy;
+    padding: 30px;
+    display: inline-block;
+    width: 100%;
+    min-width: 540px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.form-content h3 {
+    color: navy;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+    margin-bottom: 20px;
+}
+
+.form-content img{
+    width: 130px;
+    height: 115px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+.form-content h5{
+    margin-top: 20px;
+    color: navy;
+}
+
+.form-content p {
+    color: navy;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+    color: navy;
+}
+
+.form-content input[type=text], .form-content select {
+    width: 100%;
+    padding: 9px 20px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 300;
+    color: dimgray;
+    margin-top: 16px;
+}
+
+
+.btn-primary{
+    width: 300px;
+    background-color: steelblue;
+    border: 0px;
+}
+
+.dog-btn{
+    margin-left: 80px;
+}
+
+.btn-worker{
+    margin-left: 20px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: #495056;
+    outline: none;
+    border: none;
+}
+
+.mv-up{
+    margin-top: -9px !important;
+    margin-bottom: 8px !important;
+}

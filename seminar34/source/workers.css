@@ -1,0 +1,60 @@
+body{
+    margin-top:30px;
+    margin-left: 280px;
+    background: dimgray;
+}
+
+.task-list {
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+.task-list:after {
+  content: "";
+  position: absolute;
+  background: dimgray;
+  height: 100%;
+  width: 1px;
+  top: 0;
+  left: 30px;
+}
+
+.task-list li {
+  margin-bottom: 30px;
+  padding-left: 55px;
+  position: relative;
+}
+
+.task-list li .task-icon {
+  position: absolute;
+  left: 22px;
+  top: 13px;
+  border-radius: 0%;
+  padding: 2px;
+  width: 17px;
+  height: 17px;
+}
+
+.worker {
+  margin-bottom: 30px;
+}
+
+.worker .info {
+    background: white;
+    padding: 30px 25px;
+}
+
+.colored {
+    background: dimgray;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.task-list li h6 span{
+    position: relative;
+    padding-left: 10px;
+}
