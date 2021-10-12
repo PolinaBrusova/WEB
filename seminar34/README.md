@@ -6,13 +6,13 @@
 <p align="center">Рис.1</p>
 <h2>Задание 1 (TODO список по примеру)</h2><br>
 Максимально приближено к примеру с небольшими авторскими изменениями в цветах и собственным списком дел (рис.2)<br>
-<p align="center"><img src="source/ToDo.png" height="200"/></p>
+<p align="center"><img src="source/ToDo.png" height="500"/></p>
 <p align="center">Рис.2</p>
 <h2>Задание 2 (Карты сотрудников компании)</h2><br>
 Максимально приближено к примеру с небольшими авторскими изменениями в цветах и аватарах сотрудников (рис.3)<br>
-<p align="center"><img src="source/StaffInfo.png" height="200"/></p>
+<p align="center"><img src="source/StaffInfo.png" height="500"/></p>
 <p align="center">Рис.3</p>
 <h2>Задание 3 (Страница регистрации на примере GitHub и похожих сайтов)</h2><br>
 Старница регистрации пользователья с авторский дизайном(рис.4)<br>
-<p align="center"><img src="source/LoginPage.png" height="200"/></p>
+<p align="center"><img src="source/LoginPage.png" height="400"/></p>
 <p align="center">Рис.4</p>
