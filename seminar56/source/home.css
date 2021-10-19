@@ -1,0 +1,35 @@
+body { 
+    background: url('../source/20.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    font-family: "Oswald", sans-serif;
+    height: 100vh;}
+
+.navbar {
+    font-style: bold;
+    font-weight: 400;
+    overflow: auto;
+    text-align: right;
+}
+
+
+.navbar a {
+    font-family: "Oswald", sans-serif;
+    display: inline-block;
+    color: white;
+    text-align: right ;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-align: right;
+    text-decoration: underline;
+    background-color: #4CAF50;
+}
+
+.text{
+    font-family: "Oswald", sans-serif;
+    top: 50%;
+    margin-top: 20%;
+}
