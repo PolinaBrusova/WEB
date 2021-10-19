@@ -1,0 +1,90 @@
+h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+div.navbar {
+    font-family: "Oswald", sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    overflow: auto;
+    text-align: right;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+div.navbar a {
+    display: inline-block;
+    color: #504E4E;
+    text-align: right ;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.navbar a:hover {
+    text-align: right;
+    text-decoration: underline;
+    background-color: #4CAF50;
+}
+
+.image{
+    background-image: url('../source/4.jpg');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 559px;
+    width: 1182px;
+}
+.left-text{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    padding-top: 96px;
+    padding-left: 300px;
+    height: 400px;
+}
+.slogan{
+    width: 280px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.26px;
+
+    color: #5B5858;
+}
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+.comp-name{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 57px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 2.688px;
+
+    color: #504E4E;
+}
+.sec-slogan{
+    width: 280px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.26px;
+
+    color: #5B5858;
+    margin-top: auto;
+    margin-left: 500px;
+}
